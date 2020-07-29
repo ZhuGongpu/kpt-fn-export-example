@@ -12,4 +12,4 @@ jobs:
           - name: Run all kpt functions
             uses: docker://gcr.io/kpt-dev/kpt:latest
             with:
-                args: fn run resources --fn-path functions.yaml
+                args: fn run exmaple-package
