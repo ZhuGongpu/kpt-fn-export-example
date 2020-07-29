@@ -3,6 +3,4 @@ steps:
     args:
       - fn
       - run
-      - resources
-      - --fn-path
-      - functions.yaml
+      - exmaple-package
