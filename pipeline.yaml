@@ -12,9 +12,7 @@ spec:
         args:
           - fn
           - run
-          - $(workspaces.source.path)/resources
-          - --fn-path
-          - $(workspaces.source.path)/functions.yaml
+          - $(workspaces.source.path)/exmaple-package
         volumeMounts:
           - name: docker-socket
             mountPath: /var/run/docker.sock
