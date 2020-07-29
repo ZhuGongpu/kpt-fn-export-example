@@ -11,8 +11,7 @@ pipeline {
                     -v $PWD:/app \
                     -v /var/run/docker.sock:/var/run/docker.sock \
                     gcr.io/kpt-dev/kpt:latest \
-                    fn run /app/resources \
-                    --fn-path /app/functions.yaml
+                    fn run /app/exmaple-package
                 '''
             }
         }
