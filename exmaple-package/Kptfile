@@ -5,7 +5,7 @@ metadata:
 upstream:
     type: git
     git:
-        commit: a117e69bf21aeea552c1bd12c951ec8059d12773
+        commit: b2afbd7cd75fd669d3e18e79af5c97d3ffb9c1a3
         repo: https://github.com/GoogleContainerTools/kpt
         directory: package-examples/function-export-blueprint
         ref: master
